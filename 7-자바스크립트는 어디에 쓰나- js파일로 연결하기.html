@@ -1,0 +1,18 @@
+﻿<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title> js파일로 연결하기  </title>
+	</head>
+	<body>
+		<h1>External JavaScript</h1>
+
+		<p id="demo">A Paragraph.</p>
+
+		<button type="button" onclick="myFunction()">Try it</button>
+
+		<p><strong>Note:</strong> myFunction is stored in an external file called "myScript.js".</p>
+
+		<script src="myScript.js"></script> <!-- 아무리 찾아봐도 myFunction()이 없음... 바로 이 HTML문서와 동일한 경로 내에 myScript.js라는 파일에 정의되어 있다.  head에 써도 되고 body에 써도 된다.  통상 head맨 마지막이나 body 맨마직에 쓴다. -->
+	</body>
+</html>
